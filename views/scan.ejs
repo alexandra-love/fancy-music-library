@@ -1,0 +1,12 @@
+<%- include("./partials/header"); %>
+<section>
+	<b><%= result %></b>
+	<p>Enter a directory's absolute path to scan it for music files and add them to the library.</p>
+	<p>
+		<form action="./scan" method="post">
+			<input type="text" name="library_path" />
+			<input type="submit" value="Submit" />
+		</form>
+	</p>
+</section>
+<%- include("./partials/footer"); %>

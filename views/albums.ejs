@@ -1,0 +1,26 @@
+<%- include("./partials/header"); %>
+<h2>Albums</h2>
+<section>
+	<table>
+		<thead>
+			<th>Album</th>
+			<th>Artist</th>
+			<th>Year</th>
+		</thead>
+		<% for (const album of albums) { %>
+		<tr>
+			<td>
+				<a href="/albums/<%= album.id %>"><%= album.name %></a></td>
+			<td>
+				<% if(album.artist_name != "[blank]") { %>
+					<a href="/artists/<%= album.artist_id %>"><%= album.artist_name %></a>
+				<% } else { %>
+					[blank]
+				<% } %>
+			</td>
+			<td><%= album.year %></td>
+		</tr>
+		<% } %>
+	</table>
+</section>
+<%- include("./partials/footer"); %>

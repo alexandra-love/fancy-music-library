@@ -1,0 +1,17 @@
+<%- include("./partials/header"); %>
+<h2><a href="/artists/<%= album.artist_id %>"><%= album.artist_name %></a> - <%= album.name %></h2>
+<section>
+	<div>
+		<table><% for (const song of album_songs) { %>
+			<tr>
+				<td><%= song.track_number %></td>
+				<td><%= song.name %></td>
+			</tr>
+			<% } %>
+		</table>
+	</div>
+	<div>
+
+	</div>
+</section>
+<%- include("./partials/footer"); %>

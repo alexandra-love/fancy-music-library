@@ -1,0 +1,24 @@
+{
+	"lint": {
+		"rules": {
+			"exclude": ["no-inferrable-types"]
+		}
+	},
+	"fmt": {
+		"files": {
+			"include": [""]
+		},
+		"options": {
+			"useTabs": true,
+			"lineWidth": 100,
+			"indentWidth": 4,
+			"singleQuote": true,
+			"proseWrap": "preserve"
+		}
+	},
+	"test": {
+		"files": {
+			"include": ["test/"]
+		}
+	}
+}

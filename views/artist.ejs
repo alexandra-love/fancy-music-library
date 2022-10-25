@@ -1,0 +1,11 @@
+<%- include("./partials/header"); %>
+<h2><%= artist.name %></h2>
+<section>
+	<table><% for (const album of artist_albums) { %>
+		<tr>
+			<td><a href="/albums/<%= album.id %>"><%= album.name %></a> (<%= album.year %>)</td>
+		</tr>
+		<% } %>
+	</table>
+</section>
+<%- include("./partials/footer"); %>

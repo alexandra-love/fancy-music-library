@@ -1,0 +1,175 @@
+/* based on https://www.free-css.com/free-css-templates/page44/dark-theme */
+/* STANDARD TAG REDEFINITIONS */
+body 
+{ 
+	color: White; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11pt; 
+	background-color: Black; 
+	margin: 0; 
+	padding: 0; 
+}
+
+p 
+{ 
+	margin-bottom: 7px; 
+	margin-top: 0; 
+}
+
+a
+{ 
+	color: #76DEFC; 
+	text-decoration: none; 
+}
+
+a:hover
+{	
+	text-decoration: underline;  color: White;   
+}
+
+form
+{	
+	margin:0;
+}
+
+header
+{	
+	margin-left:5%; 
+	margin-right:5%;
+}
+
+header ul
+{ 
+	margin: 0; 
+	padding-left: 0; 
+	height: 44px; 
+	line-height: 44px; 
+	list-style: none; 
+	background-color: #4D4D4D; 
+	background-repeat: no-repeat;  
+	display: flex;   
+ 	justify-content: flex-end; 
+}
+
+header li
+{ 
+	display: inline; 
+	background-color: #222222;  
+	float: right;  
+}
+
+header li a
+{ 
+	height: 44px; 
+	line-height: 44px; 
+	display: block; 
+	padding-left: 27px; 
+	padding-right: 27px; 
+	border-left: 1px solid Black;  
+	float: left;     
+}
+
+header li a:hover
+{ 
+	background-color: #444444; 
+	text-decoration: none;
+}
+
+header .visual
+{ 
+	height:130px; 
+	background-image: url(bg_visual.jpg);  
+	background-repeat: no-repeat;  
+	background-color: #4492C8;  
+	border-top: 3px solid Black;   
+}
+
+h1
+{ 
+	margin: 0; 
+	padding: 40px 0 0 0; 
+	font-family: "trebuchet ms",arial,tahoma,verdana,sans-serif; 
+	font-weight: normal; 
+	letter-spacing: .005em; 
+	color: White;  
+	font-size: 20pt;  
+}
+
+section
+{ 
+	margin-left:5%; 
+	margin-right:5%;   
+	padding: 35px 40px 35px 40px; 
+	border-bottom: 1px solid #484848; 
+	border-top: 1px solid #484848; 
+	background-color: #222222;
+}
+
+section li
+{
+	padding-bottom: 5px;
+}
+
+h2
+{ 
+	margin-left:5%; 
+	font-family: "trebuchet ms",arial,tahoma,verdana,sans-serif; 
+	font-weight: normal; 
+	letter-spacing: .005em; 
+	color: White; 
+	font-size: 15pt; 
+}
+
+#text
+{ 
+	padding: 35px 40px 35px 40px; 
+	border-bottom: 1px solid #484848; 
+	border-top: 1px solid #484848; 
+	background-color: #222222; 
+}
+
+#text p
+{	
+	margin-bottom: 1em;
+}
+
+footer
+{	
+	margin-top:27px; 
+	margin-left:5%; 
+	margin-right:5%;  
+	border-top: 4px solid #363636;  
+	padding-top: 5px;   
+}
+
+footer p
+{ 
+	line-height: 14px; 
+	margin: 0;  
+	color: #DDDDDD; 
+}
+
+footer a
+{ 
+	font-size: 11px;	
+	font-weight: normal;	
+	text-decoration: none;  
+	color: White;    
+}
+
+footer a:hover
+{ 
+	color: white; 
+	text-decoration: underline; 
+}
+
+table
+{
+	width: 100%;
+}
+
+td
+{
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
