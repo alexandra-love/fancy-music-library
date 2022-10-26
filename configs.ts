@@ -1,5 +1,5 @@
 export const configs = {
-	project_root: './music-library',
+	project_root: './',
 	port: 8000,
 	db_url: 'localhost',
 	db_port: 5432,

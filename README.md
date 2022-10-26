@@ -10,7 +10,9 @@ The third-party libraries I used are:
 
 ## Setup
 
-First, create the database by running `deno run /tests/database_test.ts`.
+First, adjust the `project_root` value in `configs.ts`. If you can run `deno` from any working directory in your terminal, then you can leave that value be. Otherwise, set it to the project file's location relative to where deno.exe is being run from.
+
+Then, create the database by running `deno run /tests/database_test.ts`.
 
 ## Running FML
 
